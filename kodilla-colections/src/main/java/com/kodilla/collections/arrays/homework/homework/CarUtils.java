@@ -1,4 +1,4 @@
-package com.kodilla.collections.arrays.homework;
+package com.kodilla.collections.arrays.homework.homework;
 
 import com.kodilla.collections.interfaces.homework.Car;
 import com.kodilla.collections.interfaces.homework.Mercedes;

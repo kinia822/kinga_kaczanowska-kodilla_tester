@@ -1,4 +1,4 @@
-package com.kodilla.collections.arrays.homework;
+package com.kodilla.collections.arrays.homework.homework;
 
 import com.kodilla.collections.interfaces.homework.Car;
 import com.kodilla.collections.interfaces.homework.Mercedes;
@@ -7,7 +7,7 @@ import com.kodilla.collections.interfaces.homework.Volkswagen;
 
 import java.util.Random;
 
-public class CarApplication {
+public class CarsApplication {
 
     private static final Random RANDOM = new Random();
 
