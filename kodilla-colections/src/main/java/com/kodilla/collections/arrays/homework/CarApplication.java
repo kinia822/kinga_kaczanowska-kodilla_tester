@@ -7,7 +7,7 @@ import com.kodilla.collections.interfaces.homework.Volkswagen;
 
 import java.util.Random;
 
-public class CarsApplication {
+public class CarApplication {
 
     private static final Random RANDOM = new Random();
 
