@@ -1,7 +1,5 @@
 package com.kodilla.collections.arrays.homework;
 
-import com.kodilla.collections.arrays.ShapeUtils;
-import com.kodilla.collections.interfaces.Shape;
 import com.kodilla.collections.interfaces.homework.Car;
 import com.kodilla.collections.interfaces.homework.Mercedes;
 import com.kodilla.collections.interfaces.homework.Opel;
@@ -12,7 +10,6 @@ import java.util.Random;
 public class CarsApplication {
 
     private static final Random RANDOM = new Random();
-    private static final Random randomIncrease = new Random();
 
     public static void main(String[] args) {
         Random random = new Random();
@@ -36,9 +33,5 @@ public class CarsApplication {
     }
     private static int getRandomSpeed(Random random){
         return RANDOM.nextInt(151);
-    }
-
-    private static int getRandomIncrease(Random random){
-        return randomIncrease.nextInt(101);
     }
 }

@@ -7,7 +7,7 @@ import com.kodilla.collections.interfaces.homework.Volkswagen;
 
 public class CarUtils {
 
-    public static void describeCar(Car car){
+    public static void describeCar(Car car) {
         System.out.println("---------------------------");
         System.out.println("Car type: " + getCarType(car));
         System.out.println("Car speed: " + car.getSpeed());
